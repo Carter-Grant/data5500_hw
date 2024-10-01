@@ -61,7 +61,10 @@ def analyze_data(data):
         "highest_month": highest_month,
         "lowest_month": lowest_month
     }
-
+def save_data_to_json(state, data):
+    file_path = f'C:/Users/carte/OneDrive/Documents/GitHub/data5500_hw/HW_5/{state}.json'
+    with open(file_path, 'w') as json_file:
+        json.dump(data, json_file)
 # Main function
 def main():
     # Iterate through each state to fetch and analyze data
