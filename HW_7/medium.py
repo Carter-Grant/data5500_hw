@@ -51,7 +51,7 @@ def main():
             else:
                 print("False")
         except ValueError:
-            print("Please enter a valid integer.")
+            print("Not an integer.")
 
 if __name__ == "__main__":
     main()

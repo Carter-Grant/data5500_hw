@@ -1,0 +1,19 @@
+#Hard: (Essay, 7 points)
+
+3. Explain the process of deleting a node from 
+a binary search tree in Python. Discuss how you 
+would handle different cases, such as deleting a node 
+with one, or two children. Additionally, explain any potential 
+challenges or edge cases that may arise during the deletion 
+process and how you would address them. 
+
+Answer: 
+A binary search tree is a data structure where each node can have at most two children (or 2 paths): a left child and a right child. In this data structure, the left child’s value is always less than that of its parent node, while the right child’s value is greater. In order to delete a node, the procedure varies depending on the number of children the node has.
+First, if the node that is going to be deleted is a leaf node (it has no children), we can simply remove the node by setting the parent node’s pointer to None. 
+Second, if the node has only one child, the deletion process is also simple; we will need to first link the parent node directly to the child, which maintains the overall structure of the tree. We can then delete it. 
+Lastly is when the node that we want to delete has two children. We will need to find a replacement for the node. The easiest way to do this is to locate the smallest value in the node's right subtree or the largest value in the left subtree. 
+Overall, deleting nodes involves three primary steps: first, locating the node to delete by going down the tree; second, determining the number of children; and finally, deleting according to the identified case.
+
+There are also several challenges and edge cases can arise during this process. For example, finding the node may take a long time if the tree is unbalanced or missing values, which can affect performance. Additionally, if duplicate values are present in the tree we need a way to code which duplicate to delete. Finally, after deletion, the tree might become unbalanced, which impacts the efficiency of future operations such as searches and insertions. 
+To mitigate these issues, we can use self-balancing trees or choose a different root number.
+
