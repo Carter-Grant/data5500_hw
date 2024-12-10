@@ -1,0 +1,11 @@
+currency_from,currency_to,exchange_rate
+bch,xlm,0.99992406
+xlm,bch,0.99992406
+ltc,eth,0.9999117813941999
+eth,ltc,0.9999117813941999
+eth,dot,0.99986763648
+dot,eth,0.99986763648
+eos,ltc,0.9998558492999999
+ltc,eos,0.9998558492999999
+eos,eth,0.9998499
+eth,eos,0.9998499

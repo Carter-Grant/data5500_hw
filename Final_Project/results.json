@@ -1,0 +1,112 @@
+[
+    {
+        "arbitrage_factor": 0.99992406,
+        "forward_path": [
+            "bch",
+            "xlm"
+        ],
+        "reverse_path": [
+            "xlm",
+            "bch"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.99992406,
+        "forward_path": [
+            "xlm",
+            "bch"
+        ],
+        "reverse_path": [
+            "bch",
+            "xlm"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.9999117813941999,
+        "forward_path": [
+            "ltc",
+            "eth"
+        ],
+        "reverse_path": [
+            "eth",
+            "ltc"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.9999117813941999,
+        "forward_path": [
+            "eth",
+            "ltc"
+        ],
+        "reverse_path": [
+            "ltc",
+            "eth"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.99986763648,
+        "forward_path": [
+            "eth",
+            "dot"
+        ],
+        "reverse_path": [
+            "dot",
+            "eth"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.99986763648,
+        "forward_path": [
+            "dot",
+            "eth"
+        ],
+        "reverse_path": [
+            "eth",
+            "dot"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.9998558492999999,
+        "forward_path": [
+            "eos",
+            "ltc"
+        ],
+        "reverse_path": [
+            "ltc",
+            "eos"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.9998558492999999,
+        "forward_path": [
+            "ltc",
+            "eos"
+        ],
+        "reverse_path": [
+            "eos",
+            "ltc"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.9998499,
+        "forward_path": [
+            "eos",
+            "eth"
+        ],
+        "reverse_path": [
+            "eth",
+            "eos"
+        ]
+    },
+    {
+        "arbitrage_factor": 0.9998499,
+        "forward_path": [
+            "eth",
+            "eos"
+        ],
+        "reverse_path": [
+            "eos",
+            "eth"
+        ]
+    }
+]
